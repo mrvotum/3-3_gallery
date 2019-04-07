@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+<form class="imgForm">
+  <div class="container">
+    <label class="label">
+      <span>Название</span>
+      <input data-input="altInput" class="inputField" type="text" autocomplete="off">
+    </label>
+    <label class="label">
+      <span>Ссылка на изображение</span>
+      <input data-input="urlInput" class="inputField" type="text" autocomplete="off">
+    </label>
+  </div>
+  <input class="button" type="submit" value="Добавить">
+  <p>../img/img_1.png</p>
+</form>
+
+<div data-holder="imgHolder" class="imagesContainer">
+  <div data-error="error" class="error">Неверный URL изображения</div>
+</div>
+
+<!-- <script src="./js/app.js"></script> -->
+</body>
+</html>

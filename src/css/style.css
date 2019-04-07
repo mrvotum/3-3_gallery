@@ -1,0 +1,81 @@
+.imgForm{
+  border: 2px solid #000;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin: auto;
+  width: 550px;
+  height: 250px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.imagesContainer{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.inputField{
+  width: 250px;
+}
+
+.button{
+  width: 100px;
+  margin-left: calc(50% - 50px);
+}
+
+.imgHolder{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  margin-top: 40px;
+  border: 1px solid #000;
+}
+.imgHolder:not(:first-child){
+  margin-left: 20px;
+}
+
+
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+.deleteBtn{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  box-sizing: border-box;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background-color: #fff;
+}
+.deleteBtn::after{
+  content: 'X';
+  margin-top: 5px;
+  margin-left: 7px;
+  display: block;
+}
+
+img{
+  width: 100%;
+}
+
+.error{
+  color: red;
+  font-weight: 700;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+  display: none;
+}
